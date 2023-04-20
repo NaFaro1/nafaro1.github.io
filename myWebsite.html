@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>fundraising and livesaving</title>
+        <style>
+        /* Styles for the slider container and images */
+        .slider {
+            width: 80%;
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slider img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        /* Style for the active image */
+        .slider img.active {
+            opacity: 1;
+        }
+
+        h1 {
+            color: rgb(0, 191, 255);
+        }
+
+
+
+    </style>
+        <script>
+        function convert() {
+            var euro = parseFloat(document.getElementById("euro").value);
+            var afghani = euro * 100;
+            document.getElementById("result").innerHTML = afghani.toFixed(2) + " AFG";
+        }
+    </script>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="customer.html">Contact</a></li>
+                            <li><a href="#">Service</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="top-header">
+                        <div class="container">
+                            <div class="search-box">
+                                <input type="text" placeholder="Search...">
+                                <button>Search</button>
+                                <br><br><br>
+                            </div>
+
+
+
+
+                            <div class="slider">
+                                <img
+                                    src="https://www.unicef.de/_cae/resource/image/309602/2x1/1440/720/a5d46a03cb8998b1cc25d2abc671c40a/C9E126EB3756374FE8AFD6AAE405A110/afghanistan-maedchen-geschwister-un0662322.jpg"
+                                    class="active">
+                                <img
+                                    src="https://img.zeit.de/kultur/2022-12/afghanistan-kinderheime-taliban-unicef-10nach8-2/standard__1120x840">
+                                <img src="https://i.redd.it/9xd5kjad1jh61.jpg">
+                                <img
+                                    src="https://globalvoices.org/wp-content/uploads/2018/11/IMG_0055-800x533.jpg">
+                                <img
+                                    src="
+                                    https://www.sabcnews.com/sabcnews/wp-content/uploads/2022/05/Child-labour-India.jpg">
+                                <img
+                                    src="https://www.hrw.org/sites/default/files/styles/image_gallery/public/multimedia_images_2016/2016-07-asia-afghanistan-photo-08.jpg?itok=lLRXoKcV">
+                            </div>
+
+                            <script>
+                            // JavaScript code for auto sliding
+                            var images = document.querySelectorAll('.slider img');
+                            var currentImageIndex = 0;
+                            var interval = setInterval(nextImage, 5000);
+
+                            function nextImage() {
+                                images[currentImageIndex].classList.remove('active');
+                                currentImageIndex = (currentImageIndex + 1) % images.length;
+                                images[currentImageIndex].classList.add('active');
+                            }
+
+
+
+
+                        </script>
+                            <h1>Changing lives in Afghanistan, one donation at a
+                                time</h1>
+
+
+
+                            <link rel="stylesheet" type="text/css"
+                                href="web.css">
+
+                            <div id="QuickQuip">
+                                <h3>QuickQuip</h3>
+                                <input type="text" placeholder="Ask me a
+                                    question...">
+                                <button>Send</button>
+                            </div>
+
+
+                            <h2>Afghanistan ‘least happy’ country in world for
+                                second year in row</h2>
+
+                            <img
+                                src="https://i.dailymail.co.uk/1s/2022/03/18/16/55522015-10627967-image-a-15_1647619589896.jpg"
+                                alt="Image description"
+                                style="float: left; margin-right: 10px; width:
+                                500px; height: auto;">
+
+
+                            <section>
+                                <br><br><br><br>
+
+
+                                <h2> Current situation of Afghans</h2>
+
+
+
+
+                                <p>According to a
+                                    report by Tolo News, the citizens of Kabul
+                                    are
+                                    feeling the impact of unemployment and
+                                    poverty on their mental
+                                    health. Economic challenges have left many
+                                    without work, causing widespread despair and
+                                    sadness.Education is an essential tool that
+                                    can
+                                    help people
+                                    acquire knowledge, skills, and competencies,
+                                    which are necessary for them to secure
+                                    well-paying jobs and improve their lives.
+                                    Unfortunately, due to various factors such
+                                    as
+                                    poverty, conflict, and discrimination, many
+                                    individuals, especially girls and women, are
+                                    unable to access education in Afghanistan.
+                                </p>
+
+                                <p>To address this issue, it is crucial that we
+                                    prioritize education in Afghanistan and work
+                                    towards providing accessible and quality
+                                    education to all, regardless of gender or
+                                    socioeconomic status. By doing so, we can
+                                    help
+                                    break the cycle of poverty and provide a
+                                    brighter future for the people of
+                                    Afghanistan.</p>
+                                <p>It is essential that we prioritize education
+                                    in
+                                    Afghanistan and work towards providing
+                                    accessible and quality education to all. By
+                                    doing so, we can help break the cycle of
+                                    poverty
+                                    and provide a brighter future for future
+                                    generations.</p>
+
+                            </section>
+                            <br><br><br><br>
+
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            <hr color="navyblue" size="3" style="dashed">
+
+
+                            <br><br><br>
+
+
+
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/znbqbpOIrGo?start=315"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write;
+                                encrypted-media; gyroscope; picture-in-picture;
+                                web-share"
+                                allowfullscreen></iframe>
+
+
+
+
+
+                            <br><br><br><br>
+
+                            <hr color="navyblue" size="3" style="dashed">
+
+                            <h2>Euro to Afghani Converter</h2>
+                            <p1>Enter the amount of Euro you want to convert:</p1>
+                            <input type="number" id="euro" />
+                            <button onclick="convert()">Convert</button>
+                            <br>
+                            <p2>Result: <span id="result"></span></p2>
+
+                            <br><br><br><br><br>
+
+
+                            <br><br><br>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/H-cQluk92oQ?start=1433"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write;
+                                encrypted-media; gyroscope; picture-in-picture;
+                                web-share"
+                                allowfullscreen></iframe>
+
+
+                            <br><br><br><br><br>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Value</th>
+                                        <th>Current Year</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Population</td>
+                                        <td>39,835,428</td>
+                                        <td>2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Average Life Expectancy</td>
+                                        <td>64 years</td>
+                                        <td>2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Women</td>
+                                        <td>18,868,052</td>
+                                        <td>2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Men</td>
+                                        <td>20,967,080</td>
+                                        <td>2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Children (age 0-14)</td>
+                                        <td>15,716,882</td>
+                                        <td>2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Number of Seniors (age 65+)</td>
+                                        <td>1,305,257</td>
+                                        <td>2023</td>
+                                    </tr>
+
+
+                                    <hr color="navyblue" size="3"
+                                        style="dashed">
+                                    <br><br><br><br><br>
+
+
+                                </body>
+
+                            </html>

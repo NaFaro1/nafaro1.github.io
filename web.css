@@ -1,0 +1,95 @@
+#QuickQuip {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #e2dada;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #999;
+}
+
+p:first-letter {
+  font-size: 5em;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header styles */
+header {
+  background-color: #f1e6e6;
+  color: #0c0a0a;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top section styles */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 10px;
+}
+
+
+.user-actions {
+  display: flex;
+  gap: 15px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Define border styles for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Define alternating row colors */
+tr:nth-child(odd) {
+  background-color: #cce6ff;
+  /* light blue */
+}
+
+tr:nth-child(even) {
+  background-color: #b3d9ff;
+  /* slightly darker blue */
+}
+
+/* Style the header row */
+th {
+  background-color: #3399ff;
+  /* blue */
+  color: white;
+}
